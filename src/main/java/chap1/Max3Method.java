@@ -1,8 +1,8 @@
 package chap1;
-
 import java.util.Scanner;
-public class Max3 {
-    public static void main(String[] args) {
+public class Max3Method {
+
+    public static void main(String[] args){
         System.out.println(" >>>>>> Start ");
 
         Scanner stdIn = new Scanner(System.in);
@@ -15,13 +15,22 @@ public class Max3 {
         int b = stdIn.nextInt();
         System.out.println(" c의 값 :  ");
         int c = stdIn.nextInt();
+
+        max3(a, b, c);
+
+
         System.out.println(" >>>>>> Finish ");
 
+    }
+
+    static int max3(int a, int b, int c) {
         int max = a;
         if (max < b) max = b;
         if (max < c) max = c;
+
         System.out.println(" The Max value is :  " + max);
+
+        return max;
     }
+
 }
-
-
