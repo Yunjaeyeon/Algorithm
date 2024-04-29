@@ -25,5 +25,7 @@ public class Alternative1 {
         }
         System.out.println("\n>>>>>>>Finish");
 
+        // 깃랩 테스트 !!!!!!!!!!! 주석 추가
+
     }
 }
